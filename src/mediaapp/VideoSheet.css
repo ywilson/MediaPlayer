@@ -1,0 +1,26 @@
+.root{
+    -fx-background-image:url("film.jpg");
+}
+
+.menu-bar{
+    -fx-background-color:dimgray;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 5 ,0,0, 1);
+}
+
+.menu .label{
+    -fx-text-fill:whitesmoke;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.menu:showing .label{
+    -fx-text-fill:black;
+    -fx-font-weight:normal;
+    -fx-font-size: 18px;  
+}
+
+.borderpane {
+    -fx-background-color: black;
+}
+
